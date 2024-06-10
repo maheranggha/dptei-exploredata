@@ -12,8 +12,7 @@ st.set_page_config(
 st.title("Data Visualization Explorer")
 
 with st.expander("Description:", expanded=True):
-    st.markdown("This page is providing you Data Visualization tools of with the DPTEI dataset.\nHere you can drag and drop some features to build some charts. Please, don't refresh the page before you export the chart! Otherwise you will lose your work")
-  
+    st.markdown("This page is providing you Data Visualization tools of with the DPTEI dataset. Here you can drag and drop some features to build some charts. Please, don't refresh the page before you export the chart! Otherwise you will lose your work.")
 
 # Import dataset
 df = pd.read_csv("Cat_Combined_Target.csv")
